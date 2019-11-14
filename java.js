@@ -84,7 +84,7 @@ span.innerHTML= "<tr class='rubrik'><td>Destination</td><td>Avgång</td><td>Gå 
 
 
 
-/// START SÖKRUTA
+/// START SÖKRUTA - funktionen som händer när man klickar på Sök Resa
 
 function resa(skaspara)
 {
@@ -115,7 +115,7 @@ function resa(skaspara)
 /// END SÖKRUTA
 
 
-/// START LADDA 
+/// START LADDA - laddar senaste resan. 
 const span = document.getElementById("utresa");
 const span2 = document.getElementById("walkingDistance");
 const url = 'https://cors-anywhere.herokuapp.com/http://primat.se/services/data/alexander.sjoholm@hotmail.com-resapp_user1.json';
@@ -139,7 +139,7 @@ fetch(url)
   /// END LADDA
 
 
-  /// START SPARA
+  /// START SPARA - sparar sökningar 
 
   function sparadata(stationName, walkingDistance)
   {
@@ -162,7 +162,7 @@ fetch(url)
 /// END SPARA
 
 
-// VISA AVGÅNGSORT //
+// VISA AVGÅNG //- visar avgång från station ovanför tidtabellen. 
 function avgangar()
 { document.getElementById("avgangar").innerHTML = "Visar avgångar från " + utresa.value; 
 
