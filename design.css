@@ -1,0 +1,16 @@
+#information {background-color: white; 
+font-family: 'Kanit', sans-serif; font-size: 17px;}
+#site {background-color: white; border: 1px solid black; width: 25%;}
+body {background-color: beige;} 
+button {background-color:lightblue; font-size: 22px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  text-shadow: 1px 1px white;}
+#avgangar {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+font-size: 20px; text-align: center;}
+#yepp {margin: auto}
+td {border: 0px solid black }
+tr {padding: 2px;}
+.rubrik {background-color: lightblue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: black;font-size: 22px; text-shadow: 1px 1px white;}
+#sokruta {text-align: center;}
+img {  max-width: 100%; height: auto;}
+#information {background-color: white; width: 100%;}
+#text1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 32px; text-shadow: 1px 1px black; color: lightblue;}
