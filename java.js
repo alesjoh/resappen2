@@ -21,14 +21,14 @@ span.innerHTML= "<tr class='rubrik'><td>Destination</td><td>Avgång</td><td>Gå 
       return infos.map(function (info) {
       
         data2 = new Date(Date.parse(info.ExpectedDateTime));
-        
+        /// funktionen som räknar bort gångtid.
         minutediff = (data2 - data1) / 1000 / 60;
         console.log(minutediff);
         console.log(walkingDistance.value);
         diffWalk = minutediff - walkingDistance.value;
         goom = (Math.floor(minutediff - walkingDistance.value)) + " min";
         if (goom == 0 + " min") {
-        goom = " Gå Nu";
+        goom = " Gå Nu"; // ändrar 0 min till Gå Nu
         }
      
 
